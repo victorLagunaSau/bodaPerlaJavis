@@ -6,7 +6,9 @@
   font-style: normal;
 }
 /* =======================================================
-* fh5co-cover
+* display-t
+fh5co-bg
+fh5co-cover
 * 	Template Style 
 *
 * ======================================================= */
@@ -227,18 +229,27 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event,
 .fh5co-bg {
   background-size: cover;
-  background-position: top center;
+  background-position: 60%;
   background-repeat: no-repeat;
   position: relative;
+  alignment: center;
+
+    height: 450px;
 }
 
 .fh5co-bg {
   background-position: center center;
   width: 100%;
-  float: left;
   position: relative;
+  alignment: center;
 }
-
+@media screen and (max-width: 768px) {
+  .fh5co-bg {
+    background-size: 180%;
+    background-position: 60%;
+    height: 450px;
+  }
+}
 .fh5co-video {
   height: 450px;
   overflow: hidden;
