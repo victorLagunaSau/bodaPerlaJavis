@@ -319,9 +319,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    background-size: 180%;
+    background-size: 200%;
     background-position: 50%;
-    height: 500px;
+    height: 450px;
   }
 }
 .fh5co-cover .display-t,
