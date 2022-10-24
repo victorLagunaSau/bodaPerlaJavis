@@ -6,7 +6,7 @@
   font-style: normal;
 }
 /* =======================================================
-*
+* fh5co-cover
 * 	Template Style 
 *
 * ======================================================= */
@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 40px 0;
   z-index: 1001;
+
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -297,12 +298,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-cover {
   height: 900px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
 }
 .fh5co-cover .overlay {
+  background-size: 100%;
   z-index: 0;
   position: absolute;
   bottom: 0;
@@ -317,7 +319,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    background-size: 180%;
+    background-position: 50%;
+    height: 500px;
   }
 }
 .fh5co-cover .display-t,
